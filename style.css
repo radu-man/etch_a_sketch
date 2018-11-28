@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    border: 0px;
+}
+
+.container {
+    grid-area: auto;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    background-color: rgb(185, 166, 136);
+    height: 600px;
+    width: 600px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    float: left;
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    margin-top: 50px;
+}
+
+.container div {
+    border-width: 1px;
+    border-color: black;
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    width: auto;
+}
+
+#range {
+    margin-top: 60px;
+    margin-left: 150px;
+    margin-right: 1px;
+    margin-bottom: 50px;
+    float: left;
+}
+
+#xrange {
+    float: top;
+    margin-top: 100px;
+    margin-left: -170px;
+}
